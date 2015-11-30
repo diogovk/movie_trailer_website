@@ -34,6 +34,7 @@ ironman = Movie(
 
 
 def main():
+    # Generate the page and open it in a browser window
     fresh_tomatoes.open_movies_page([
         civil_war, martian, kung_fury, kingsman, ironman
         ])

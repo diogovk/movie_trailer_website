@@ -17,7 +17,7 @@ With that, the file fresh_tomatoes.html will be generated, and it'll be opened i
 To add more movies, edit the file `media.py` creating a new entry in the format:
 
 ```python
-my_movie = Movie(<title>, <trailer_url>, <poster_url)
+my_movie = Movie(<title>, <year>, <trailer_url>, <poster_url>, <storyline>)
 ```
 
 Then add this new entry to the list at the end of the file.
@@ -27,8 +27,9 @@ For example:
 fresh_tomatoes.open_movies_page([civil_war, martian, my_movie])
 ```
 
-I took help from the following links:
+I got help from the following links:
 
-http://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height (CSS height)
+http://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height (CSS element height)
 http://imdb.com (Movies storylines and years)
 http://wikipedia.com (Movies poster images)
+https://github.com/adarsh0806/ud036_StarterCode (fresh_tomatoes)
