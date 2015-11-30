@@ -2,7 +2,7 @@
 ## P1: Movie Trailer Website
 
 "Server-side code" that stores a list of movies, including box art imagery and a movie trailer URL. 
-Then from this list, static page will be generated allowing visitors to browse their movies and watch the trailers.
+Then from this list, a static page is generated allowing visitors to browse their movies and watch the trailers.
 
 To execute type:
 
