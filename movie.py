@@ -14,7 +14,8 @@ class Movie(object):
         - storyline -- Short plot of the movie
    """
 
-    def __init__(self, title, year, trailer_youtube_url, poster_image_url, storyline):
+    def __init__(self, title, year, trailer_youtube_url,
+                 poster_image_url, storyline):
         self.title = title
         self.year = year
         self.trailer_youtube_url = trailer_youtube_url
