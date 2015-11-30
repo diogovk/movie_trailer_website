@@ -8,9 +8,12 @@ class Movie(object):
         - trailer_youtube_url -- youtube URL containing the trailer of movie
 
         - poster_image_url -- URL pointing to a poster of the movie
+
+        - year -- Year of release
    """
 
-    def __init__(self, title, trailer_youtube_url, poster_image_url):
+    def __init__(self, title, year, trailer_youtube_url, poster_image_url):
         self.title = title
+        self.year = year
         self.trailer_youtube_url = trailer_youtube_url
         self.poster_image_url = poster_image_url
