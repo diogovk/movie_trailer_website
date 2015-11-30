@@ -27,9 +27,17 @@ For example:
 fresh_tomatoes.open_movies_page([civil_war, martian, my_movie])
 ```
 
+#### Screenshot
+
+![screenshot](screenshot1.png)
+
+#### Thank you
 I got help from the following links:
 
 http://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height (CSS element height)
-http://imdb.com (Movies storylines and years)
+
+http://imdb.com (Movies storylines and release years)
+
 http://wikipedia.com (Movies poster images)
+
 https://github.com/adarsh0806/ud036_StarterCode (fresh_tomatoes)
