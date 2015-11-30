@@ -21,6 +21,13 @@ ironman = Movie(
     "Iron Man", "2008", "https://www.youtube.com/watch?v=8hYlB38asDY",
     "https://upload.wikimedia.org/wikipedia/en/7/70/Ironmanposter.JPG")
 
-fresh_tomatoes.open_movies_page([
-    civil_war, martian, kung_fury, kingsman, ironman
-    ])
+
+def main():
+    fresh_tomatoes.open_movies_page([
+        civil_war, martian, kung_fury, kingsman, ironman
+        ])
+
+if __name__ == '__main__':
+    main()
+
+
