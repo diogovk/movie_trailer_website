@@ -38,11 +38,18 @@ main_page_head = '''
         .movie-tile {
             margin-bottom: 20px;
             padding-top: 20px;
+            overflow: hidden;
+            height: 500px;
         }
         .movie-tile:hover {
             background-color: #EEE;
             cursor: pointer;
         }
+        .movie-tile [class*="col-"]{
+            margin-bottom: -99999px;
+            padding-bottom: 99999px;
+        }
+
         .scale-media {
             padding-bottom: 56.25%;
             position: relative;

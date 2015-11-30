@@ -27,3 +27,8 @@ For example:
 fresh_tomatoes.open_movies_page([civil_war, martian, my_movie])
 ```
 
+I took help from the following links:
+
+http://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height (CSS height)
+http://imdb.com (Movies storylines and years)
+http://wikipedia.com (Movies poster images)
